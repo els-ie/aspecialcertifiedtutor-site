@@ -92,6 +92,9 @@ author:
     - label: "rhunterasct@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:rhunterasct@gmail.com"
+    - label: "208-423-8920"
+      icon: "fas fa-fw fa-phone-square"
+      url: "tel:+12084238920"
 
 # Site Footer
 footer:
