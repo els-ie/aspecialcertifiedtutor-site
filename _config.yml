@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name: "About Us"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/sct_logo_square.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "We are proud to offer individualized online tutoring by certified teachers, for students of all ages and ability levels, including those with special needs."
   links:
     - label: "chunterasct@gmail.com"
@@ -94,7 +94,7 @@ author:
       url: "mailto:rhunterasct@gmail.com"
     - label: "208-423-8920"
       icon: "fas fa-fw fa-phone-square"
-      url: "tel:+12084238920"
+      url: "tel:2084238920"
 
 # Site Footer
 footer:
