@@ -1,0 +1,30 @@
+<!-- Portfolio Grid Section -->
+<section id="about">
+  <div class="container portfolio-flex-grid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Who We Are</h2>
+        <hr class="star-primary">
+      </div>
+    </div>
+    <div class="portfolio-flex-row">
+      {% for post in site.posts %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-2x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="col-lg-12 col-lg-offset">
+      <img class="img-center" width="200" height="200" src="assets/images/special-education-thumbnail.png">
+        <style>.img-center { margin: 0 auto; display: block; }</style>
+      <img/>
+  </div>
+</section>

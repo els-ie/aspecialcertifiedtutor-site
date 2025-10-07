@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Izza';
+    src: url('Izza.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jump Start';
+    src: url('JumpStart.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Franie Test';
+    src: url('Franie-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
