@@ -85,6 +85,12 @@ hr.star-primary:after {
     vertical-align: .2em;
 }
 
+.logo-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     text-align: center;
     color: #fff;
