@@ -1,6 +1,6 @@
 A Special Certified Tutor Site
 
-Currently in the process of rebuilding website with CSM backend using Svelte.
+Currently in the process of rebuilding website with CMS backend using Svelte.
 
 --
 
