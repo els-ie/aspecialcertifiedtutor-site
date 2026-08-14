@@ -80,6 +80,13 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.payment-links {
+    margin: 0 auto;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
 .contact-text {
     font-size:2em;
     vertical-align: .2em;
