@@ -1,5 +1,5 @@
 # Site settings
-title: A Special Certified Tutor
+title: A Special Certified Tutor LLC
 email: chunterasct@gmail.com
 url: "https://aspecialcertifiedtutor.com"
 description: "We are proud to offer individualized online tutoring by certified teachers, for students of all ages and ability levels, including those with special needs."
@@ -30,7 +30,7 @@ color:
   secondary-dark: 6065A1 #333974 #1C1E3E #233140 #A2122F #F0EFEB
   # Footer settings
 footer:
-  copyright: A Special Certified Tutor
+  copyright: A Special Certified Tutor LLC
 # location: Location
 # social: Around the Web
 # credits: Credits

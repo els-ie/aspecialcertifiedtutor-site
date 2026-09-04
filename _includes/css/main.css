@@ -512,7 +512,7 @@ footer .footer-below {
   margin-top: 2rem;
   border-radius: 9px;
   height: 100%;
-  width: 95%;
+  width: 100%;
   color: #fff;
   background-color: #{{ site.color.secondary }};
 }
