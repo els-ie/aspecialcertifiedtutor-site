@@ -17,12 +17,12 @@
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
-            <p>{{ post.description }}</p>
+            <p>{{ post.description | markdownify}}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
+              {% if post.certs %}
+              <li>Certifications:
+                <strong>{{ post.certs }}</strong>
               </li>
               {% endif %}
               {% if post.project-date %}
