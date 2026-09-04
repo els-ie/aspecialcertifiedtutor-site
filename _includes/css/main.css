@@ -503,7 +503,42 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.executive {
-  align-items: center;
-  max-width: 60%;
+.executive-footer{
+  margin-top: 8rem;
 }
+
+
+.executive-container {
+  margin-top: 2rem;
+  border-radius: 9px;
+  height: 100%;
+  width: 95%;
+  color: #fff;
+  background-color: #{{ site.color.secondary }};
+}
+
+.exec-basic {
+  border: 4px solid #316fae;
+}
+.exec-bronze {
+  border: 4px solid #cf8949;
+}
+.exec-silver {
+  border: 4px solid #c0c0c0;
+}
+.exec-gold {
+  border: 4px solid #ffce0d;
+}
+
+}
+@media (min-width: 960px){
+  .executive{
+    max-width: 80%;
+  }
+}
+
+.review {
+  font-size: 4rem;
+  color: #fff;
+}
+
